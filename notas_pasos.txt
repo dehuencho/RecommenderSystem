@@ -1,0 +1,12 @@
+1. Ckeck the path to python is alright
+2. Go to working directory 
+3. install virtual enviroment: pip install virtualenv
+4. create virtual enviroment: virtualenv .env
+5. activate virtual enviroment: CMD -> script -> activate (path)
+6. instalar librerias a utilizar. 
+7. create Rprofile: 
+    Sys.setenv(RETICULATE_PYTHON = "I:/2021_Proyectos_programacion/RPythonNew/.env/Scripts")
+8. reiniciar R y probar que este funcionando: 
+    reticulate::py_config()
+    
+
